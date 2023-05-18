@@ -1,0 +1,111 @@
+/* styles.css */
+
+  /* Dashboard styles */
+  .dashboard-container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 10px;
+    }
+  }
+/* EditVendor styles */
+.edit-vendor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .edit-vendor-content {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .edit-vendor-content {
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .edit-vendor-content {
+      max-width: 250px;
+    }
+  }
+  
+  .go-back-button {
+    margin-top: 10px;
+    float: right;
+  }
+  
+  @media (max-width: 576px) {
+    .go-back-button {
+      float: none;
+      margin-top: 20px;
+    }
+  }
+  
+
+  
+  /* AddVendor styles */
+  .add-vendor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .add-vendor-content {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .add-vendor-content {
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .add-vendor-content {
+      max-width: 250px;
+    }
+  }
+  .add-vendor-button {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+@media (max-width: 768px) {
+  .add-vendor-button {
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .add-vendor-button {
+    top: 8px;
+    right: 8px;
+    padding: 6px 12px;
+  }
+}
+  /* Other styles */
+  /* ... */
+  
